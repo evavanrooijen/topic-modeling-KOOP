@@ -28,7 +28,7 @@ st.table(dtm.max(axis=0).sort_values(ascending=False)[:20])
 
 st.bar_chart(dtm.max(axis=0).sort_values(ascending=False)[:20])  
 
-st.table(dtm.max(axis=1)).sort_values(ascending=False)
+#st.table(dtm.max(axis=1)).sort_values(ascending=False)
 
 st.text("To remove: numbers (maybe not 2025 -> toekomstvisie), ...")
 
