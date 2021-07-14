@@ -1,16 +1,20 @@
 import streamlit as st
 import pandas as pd
 
+from gensim.models import LdaModel
+
+
 st.title('Tekstuele Analyse - PLOOI Documenten')
 
 st.sidebar.info("Dit is een visualisatie van de resultaten uit een NLP (Natural Language Processing) analyse van een set documenten uit PLOOI (solr testomgeving")
 
-st.sidebar.selectbox("Select features", ("text", "ministerie"))
-st.sidebar.slider("Select #documents", 0, 8000, 500)
-st.sidebar.slider("Select range of docs", 0, 8000, 500)
+if st.sidebar.checkbox("Use default dataset", value = True) == False:
+    fts = st.sidebar.selectbox("Select features", ("text", "ministerie", "tokenized_text"))
+    n_docs = st.sidebar.slider("Select #documents", 0, 89300, 100)
 
 ## DATA COLLECTION - SOLR
 dtm = pd.read_csv("df_dtm.csv", index_col=0)
+df_tokenized = pd.read_csv("tokens.csv", index_col=0)
 
 st.header(f' {dtm.shape[0]} documenten geanalyseerd')
 
@@ -45,9 +49,27 @@ st.bar_chart(dtm.iloc[selected_text].nlargest(n_words))
 if st.checkbox("Show text"):
     st.write(df_tokenized.text[selected_text])
 
-st.header("Topic Modeling Results - Topic Distribution for chosen text")
+st.header("Topic Modeling Results - Topic Dist per Text")
+st.header("Word Distribution per Topic")
+
+st.write(f"For same selected text as above #{selected_text}")
+st.error("TO DO: IMPROVE")
+
+st.header("Topic Modeling Results - Word Dist per Topic")
 
 st.header("Word Distribution per Topic")
-selected_topic = st.slider("Select a topic index", 0, 20)
+# load trained model from file
+model =  LdaModel.load('lda_model')
+selected_topic = st.slider("Select a topic index", 0, model.num_topics)
+st.write(model.print_topic(selected_topic))
+st.error("TO DO: IMPROVE")
 
-st.error("TO DO")
+if st.checkbox("Print all topics"):
+    words_per_topic = st.slider("Print ... words per topic", 0, 20, 8)
+    for i in range(0, model.num_topics-1):
+        st.write(f"Topic {i}")
+        st.write(model.print_topic(i, words_per_topic))
+
+
+
+
