@@ -1,0 +1,120 @@
+Plan MSc Applied Mathematics
+
+- scientific writing 3 ECTS
+- ethics 3 ECTS
+
+4*6 = 24 ECTS
+- scientific computing 
+- stat learning
+- stochastics and brownian
+- intro quantum 
+
+Mathematics for Data Science specialisation (30)
+- statistical learning 1 + 2 10 ECTS
+- bayesian learning 5 ECTS
+
+Information Retrieval
+- Algorithms for Intelligent Decision Making 5 ECTS
+
+Science Communication
+intro to com
+intro to scicom
+adv scicom
+3+3+4=10 ECTS
+
+12 ects Intern TAHMO + 42 ECTS Thesis PLOOI public decision making based on open information
+
+
+Onderzoeksvoorstel -> Publicatie Wetenschap EN LinkedIn
+
+Welke classificatie werkt voor overheidsdocumenten?
+Wie publiceert wat?
+Topic Modeling voor Dutch Official Governmental Publications
+
+Plan Adviseur Kunstmatige Intelligentie
+
+Nodig: Python , Open Source, AI-Model
+
+Doel: Zoekmachine bouwen op basis van relevantie score om vindbaarheid van overheidsdocumenten te verbeteren
+
+Hoe meet je relevantie in brede scope van overheidsdocumenten?
+- Latente variabele
+- Zelflerend, iteratieve score
+- Named Entity Recognition
+
+documenten clusteren -> thesis samenvatting
+Zelflerend clusteren in #topics bij cross validation, dit daarna vergelijken met clustering gebaseerd op domeinkennis
+
+Score opbouwen afhankelijk van ... onderzoek nodig naar variabele en relaties daartussen
+
+Hoger doel: vindbaarheid bevorderen voor geïnformeerde keuzes
+Keuzes bepalen "het leven", als overheid bepalen onze keuzes de maatschappij en tegelijkertijd bepaalt de maatschappij democratisch haar keuzes
+
+Daarom is het belangrijk dat deze keuzes worden gemaakt met maximale kennis. 
+Kennis komt voort uit informatie, maar een overdaad aan informatie blokkeert de verwerking van die informatie. 
+Het is daarom dus niet alleen een prestatie om duizenden documenten te publiceren, maar om burgers enz. nuttige informatie te bieden. (The organized mind)
+
+Als er een beslissing moet worden gemaakt, wordt er informatie gezocht over de mogelijkheden. Er wordt bijvoorbeeld gezocht op een onderwerp en hoe presenteren 
+wij dan de relevante documenten voor dit onderwerp.
+
+De toegevoegde waarde van kunstmatige intelligentie is hier het zelflerende, iteratieve aspect. De collectie overheidsdocumenten zal alleen maar blijven groeien.
+We kunnen het ons niet veroorloven om te limiteren aan menselijk ordenen van deze informatie. Dit zou betekenen dat wij zelf de structuur aan gaan brengen terwijl
+kunstmatige intelligentie in staat is te zoeken naar patronen in een collectie documenten met een computing power vele malen sterker dan ons brein.
+
+Wat mij erg interesseert sinds ik tijdens mijn studie meer heb geleerd over kunstmatige intelligentie en de cognitieve verwerking van informatie is de battle tussen 
+"information overload" en datagedreven beslissen. Zodra twee keuzes op een presenteerblaadje voor ons neus gelegd worden, kiezen wij op basis van motivatie/visie/...
+
+Dit zijn waardes die voor een computer niet te kwantificeren zijn, of in ieder geval moeilijk.
+Tegelijkertijd zorgt een overdaad aan informatie voor een blokkade in onze informatie verwerking, want ons brein heeft er moeite mee om alle prikkels te verwerken.
+
+Naar mijn mening, is de relevante en praktische waarde van kunstmatige intelligentie dan ook het verwerken van "Big Data" zodat de informatie omgezet wordt naar 
+inzichtelijke informatie, leesbaar/verwerkbaar voor mensen om hen te helpen bij het maken van geïnformeerde keuzes.
+
+Een actueel voorbeeld: statistisch gezien verbetert de verkeersveiligheid door het verplicht stellen van het dragen van een helm of het verbreden van de A1.
+Tegelijkertijd is er commentaar vanuit de maatschappij over het "vrije gevoel" zonder helm en de waarde van de omgeving van de snelweg. 
+
+De waarde van een "vrij gevoel" of de natuur en omgeving zijn lastig te bepalen. Het verliezen van een vrij gevoel is in dit geval een negatieve externaliteit van 
+de keuze voor een nieuwe wet en daarmee een keuze voor verkeersveiligheid. Aangezien de kwantitatieve waarde van deze externaliteiten, per definitie, niet te bepalen
+ valt kun je dit ook niet meenemen in bijvoorbeeld een kosten/baten analyse. Dit maakt de keus voor de invoering van de wet alles behalve een "simpel" rekensommetje.
+
+Omdat deze politieke keuzes niet op basis van cijfers alleen worden gemaakt, is juist de overweging zo belangrijk. En om een goede overweging te kunnen maken, is het
+hebben van alle open informatie nodig. Als alle informatie openbaar beschikbaar is en duidelijk vindbaar, dan kan openlijk mee worden gedacht over de keuze. 
+
+Terugkomend op het verbeteren van de vindbaarheid van overheidsdocumenten, kunnen we Kunstmatige Intelligentie dus toepassen om onze maatschappij geïnformeerd te maken
+niet door er een "AI" label op te plakken, maar door het praktisch verbeteren van de informatie die we bieden aan gebruikers van PLOOI.
+
+In een rol als adviseur Kunstmatige Intelligentie, vind ik het zelf ook belangrijk om naar buiten te brengen wat we nu precies met Kunstmatige Intelligentie ontwikkelen.
+De kracht van Kunstmatige Intelligentie zit, naar mijn mening, namelijk in de informatie verwerking. Met Kunstmatige Intelligentie bouwen we een brug tussen de overdaad
+aan informatie (datasets) en de keuzes die burgers, overheden etc. dagelijks maken. Door dit goed te communiceren, hoop ik duidelijkheid te brengen over het praktische
+nut van Kunstmatige Intelligentie. Er zit nog een heel groot gat tussen "robots nemen de mensheid over" en dankzij navigatie (vorm van Kunstmatige Intelligentie) snel
+informatie krijgen over de snelste route naar je afspraak. Het navigatie systeem verwerkt in dit voorbeeld namelijk alle mogelijke routes en kiest voor jou alvast de 
+kortste (afhankelijk van je filters).
+
+Ten slotte, ik denk vanuit persoonlijke interesse al een aantal jaren na over de rol van Kunstmatige Intelligentie in onze maatschappij vol "informatie-prikkels". 
+Vooral de combinatie van Kunstmatige Intelligentie en "Menselijke Intelligentie", en hoe deze elkaar kunnen versterken vind ik interessant. Als we leren om te gaan met
+de methodes voor informatie verwerking vanuit een menselijk perspectief, kunnen deze twee een brug vormen en leiden tot meer geïnformeerde keuzes en meer begrip.
+
+
+
+zelfde rol voor journaal, info samenvatten
+
+inspiratie Jan Tinbergen: wetenschap voor maatschappelijk beleid, geïnformeerde beleidskeuzes
+
+Reflectie data.overheid.nl dataverzoeken/open data
+Er mist begeleiding en uitleg. --> datasets zijn niet weergegeven met de burger in zicht, te technisch. Meeste hergebruikers zijn studenten/wetenschappers of burgers/journalisten
+Zij worden niet begeleid bij het vinden van open overheidsdata maar gebracht naar een site met wat technische termen, waar zij niet mee uit de voeten kunnen
+Nu is het beantwoorden van verzoeken niet veel meer dan doorgeefluik spelen.
+Er moet een plan komen voor het bieden van ondersteuning door middel van video's of een duidelijke documentatie.
+De communicatie met data-eigenaren kan directer, tussen vraag en aanbod hoeven wij niet per se te zitten. 
+We kunnen daarvoor ipv een extern forum, ook een plek inrichten op de website zelf.
+Zodra er een dataverzoek wordt ingediend, komt er een mail binnen bij de data-eigenaar en wordt het verzoek gepubliceerd op het portaal.
+Dit verzoek wordt direct vermeld onder de dataset, zodat mensen die met eenzelfde verzoek voor de dataset het meteen herkennen.
+De data-eigenaar kan met zijn "data-eigenaar" account inhoudelijk reageren op het verzoek.
+De indiener krijgt een mail met de inhoudelijke reactie en de mogelijkheid om te reageren via data.overheid.nl.
+Mochten er klachten zijn, of mensen liever anoniem willen blijven kunnen ze nog steeds mailen naar het data.overheid.nl team.
+Ik verwacht dat dit de dienstverlening verbetert, omdat data-eigenaren zien dat er vraag is naar hun data en ze komen in contact met deze hergebruikers.
+Voor data.overheid.nl is deze werkwijze een efficiënte manier om de inhoud van de dataverzoeken bij de datasets te publiceren, zorgt voor een compleet beeld.
+
+Na de dataverzoeken, kunnen we terugkoppeling zoeken met de indieners.
+Wetenschappers en studenten kunnen we vragen hun onderzoek te publiceren onder de dataset waar het onderzoek op gebaseerd is (public money, public code)
+Ontwikkelaars kunnen we uitnodigen voor een impact interview en vermelden als toepassing onder de dataset waar de toepassing op gebaseerd is.
