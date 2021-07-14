@@ -10,18 +10,16 @@ st.sidebar.slider("Select #documents", 0, 8000, 500)
 st.sidebar.slider("Select range of docs", 0, 8000, 500)
 
 ## DATA COLLECTION - SOLR
-df_tokenized = pd.read_csv("tokens.csv", index_col=0)
-
-st.header(f' {df_tokenized.shape[0]} documenten geanalyseerd')
-
-word = st.selectbox("Select word", df_tokenized.columns)
-
-st.write(((df_tokenized).head().sort_values(word, ascending=False))[['verantwoordelijke', word]])
-
-st.bar_chart(((df_tokenized).head().sort_values(word, ascending=False))[[word]])
-
-
 dtm = pd.read_csv("df_dtm.csv", index_col=0)
+
+st.header(f' {dtm.shape[0]} documenten geanalyseerd')
+
+word = st.selectbox("Select word", dtm.columns)
+
+st.write(((dtm).head().sort_values(word, ascending=False))[['verantwoordelijke', word]])
+
+st.bar_chart(((dtm).head().sort_values(word, ascending=False))[[word]])
+
 st.header("Most common words")
 n_words = st.slider("Selecteer n (#woorden)", 1, 100, value=10)
 #st.bar_chart(dtm.nlargest(n_words))
@@ -34,7 +32,7 @@ st.table(dtm.max(axis=1)).sort_values(ascending=False)
 
 st.text("To remove: numbers (maybe not 2025 -> toekomstvisie), ...")
 
-selected_text = st.slider("Select a text", 0, df_tokenized.shape[0])
+selected_text = st.slider("Select a text", 0, dtm.shape[0])
 st.bar_chart(dtm.iloc[selected_text].nlargest(n_words))
 # show distribution words/doc
 #st.bar_chart(df_tokenized.iloc[0].nlargest(10))
