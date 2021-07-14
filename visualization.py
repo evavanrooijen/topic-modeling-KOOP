@@ -14,7 +14,9 @@ dtm = pd.read_csv("df_dtm.csv", index_col=0)
 
 st.header(f' {dtm.shape[0]} documenten geanalyseerd')
 
-word = st.selectbox("Select word", dtm.columns)
+selected_word = st.selectbox("Select word", dtm.columns)
+
+st.text(f"Dit woord komt {dtm.loc[:, selected_word].sum()} vaak voor in deze set documenten en het meest in document")
 
 #st.write(((dtm).head().sort_values(word, ascending=False))[['verantwoordelijke', word]])
 
@@ -24,9 +26,9 @@ st.header("Most common words")
 n_words = st.slider("Selecteer n (#woorden)", 1, 100, value=10)
 #st.bar_chart(dtm.nlargest(n_words))
 
-st.table(dtm.max(axis=0).sort_values(ascending=False)[:20])  
+st.table(dtm.max(axis=0).sort_values(ascending=False)[:n_words])  
 
-st.bar_chart(dtm.max(axis=0).sort_values(ascending=False)[:20])  
+st.bar_chart(dtm.max(axis=0).sort_values(ascending=False)[:n_words])  
 
 #st.table(dtm.max(axis=1)).sort_values(ascending=False)
 
