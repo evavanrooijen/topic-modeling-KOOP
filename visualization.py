@@ -16,9 +16,9 @@ st.header(f' {dtm.shape[0]} documenten geanalyseerd')
 
 word = st.selectbox("Select word", dtm.columns)
 
-st.write(((dtm).head().sort_values(word, ascending=False))[['verantwoordelijke', word]])
+#st.write(((dtm).head().sort_values(word, ascending=False))[['verantwoordelijke', word]])
 
-st.bar_chart(((dtm).head().sort_values(word, ascending=False))[[word]])
+#st.bar_chart(((dtm).head().sort_values(word, ascending=False))[[word]])
 
 st.header("Most common words")
 n_words = st.slider("Selecteer n (#woorden)", 1, 100, value=10)
