@@ -14,7 +14,7 @@ if st.sidebar.checkbox("Use default dataset", value = True) == False:
 
 ## DATA COLLECTION - SOLR
 dtm = pd.read_csv("df_dtm.csv", index_col=0)
-df_tokenized = pd.read_csv("tokens.csv", index_col=0)
+#df_tokenized = pd.read_csv("tokens.csv", index_col=0)
 
 st.header(f' {dtm.shape[0]} documenten geanalyseerd')
 
@@ -47,7 +47,8 @@ st.bar_chart(dtm.iloc[selected_text].nlargest(n_words))
 
 
 if st.checkbox("Show text"):
-    st.write(df_tokenized.text[selected_text])
+    st.error("Memory Error for saving all texts in Git, TBC")
+    #st.write(df_tokenized.text[selected_text])
 
 st.header("Topic Modeling Results - Topic Dist per Text")
 st.header("Word Distribution per Topic")
